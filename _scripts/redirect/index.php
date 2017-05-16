@@ -964,5 +964,5 @@ if (isset($gitblog_urls[$reqpath])) {
 }
 
 header('HTTP/1.1 301 Moved Permanently');
-header('Location: http://nemanjavlahovic.com/'.$dstpath);
+header('Location: http://nemanjavlahovic.github.io/'.$dstpath);
 ?>

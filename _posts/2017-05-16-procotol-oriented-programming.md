@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Protocol Oriented Programming in Swift"
-og_image_url: "https://nemanjavlahovic.com/res/wasm/poster.png"
+og_image_url: "https://nemanjavlahovic.github.io/res/wasm/poster.png"
 description: "Explore how you can write flexible and extensible code in Swift with protocol-oriented programming."
 figma_file: a2r9Ll65Et0eqCRVSwQVL25B
 ---
