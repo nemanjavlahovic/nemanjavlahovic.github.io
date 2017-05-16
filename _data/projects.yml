@@ -1,0 +1,19 @@
+- name:  myOKU
+  url:   https://itunes.apple.com/us/app/my-oku/id915801986?mt=8
+  descr: myOKU is an app used for communicating with OKU device which is designed to be your Personal Skin Coach.
+
+- name:  Parkeyz
+  url:   https://itunes.apple.com/gb/app/parkeyz/id1219226878?mt=8
+  descr: Mobile app that allows SMS parking payment in Belgrade.
+
+- name:  Purview
+  url:   https://itunes.apple.com/il/app/purview-a-simple-compass-app/id1232598602?mt=8
+  descr: A simple compass app.
+
+- name:  Speech To Text
+  url:   https://github.com/nemanjavlahovic/SpeechToText
+  descr: Simple app created using Speech Kit, latest iOS framework for speech recognition.
+
+- name:  Swift String Utility
+  url:   https://github.com/nemanjavlahovic/SwiftStringUtility
+  descr: Extended functionality of Swift String.
