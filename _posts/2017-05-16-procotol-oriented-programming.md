@@ -23,14 +23,14 @@ Internet is full of rants about OOP like [this.](https://krakendev.io/blog/subcl
 Let’s say we have a Vehicle, which we’ll define as a protocol that will have one property:
 ```wasm
 protocol Vehicle {
-  var hitPoints: Int {get set} 
+  var hitPoints: Int {get set}
 }
 ```
 
 Using protocol extensions we can extend the functionality and provide additional methods to the Vehicle protocol:
 ```wasm
 extension Vehicle {
-  mutating func takeHit(amount: Int) { hitPoints -= amount } 
+  mutating func takeHit(amount: Int) { hitPoints -= amount }
   func hitPointsRemaining() -> Int { return hitPoints }
   func isAlive() -> Bool { return hitPoints > 0 ? true : false }
 }
@@ -38,34 +38,34 @@ extension Vehicle {
 
 Now, let’s define LandVehicle, SeaVehicle and AirVehicle protocols:
 ```wasm
-protocol LandVehicle: Vehicle { 
+protocol LandVehicle: Vehicle {
   var landAttack: Bool {get}
-  var landMovement: Bool {get} 
+  var landMovement: Bool {get}
   var landAttackRange: Int {get}
   func doLandAttack()
-  func doLandMovement() 
+  func doLandMovement()
   }
-  
-protocol SeaVehicle: Vehicle { 
+
+protocol SeaVehicle: Vehicle {
   var seaAttack: Bool {get}
-  var seaMovement: Bool {get} 
+  var seaMovement: Bool {get}
   var seaAttackRange: Int {get}
   func doSeaAttack()
-  func doSeaMovement() 
+  func doSeaMovement()
 }
-protocol AirVehicle: Vehicle { 
+protocol AirVehicle: Vehicle {
   var airAttack: Bool {get}
-  var airMovement: Bool {get} 
+  var airMovement: Bool {get}
   var airAttackRange: Int {get}
   func doAirAttack()
-  func doAirMovement() 
+  func doAirMovement()
 }
 ```
 
 Important thing to note is that all 3 protocols inherit from Vehicle protocol.
 
 Now, let’s define a struct that conforms to Vehicle protocol:
-
+```wasm
 struct Helicopter: AirVehicle {
 	var hitPoints = 100
 	let airAttackRange = 5
@@ -75,24 +75,25 @@ struct Helicopter: AirVehicle {
 	func doAirAttack() { print(“Helicopter Attack”) }
 	func doAirMovement() { print(“Helicopter movement”) }
 }
+```
 
 But what if we had a vehicle that could do both air, land & sea attacks? 🤔 Say no more:
 
 ```wasm
 struct Transformer: LandVehicle, SeaVehicle, AirVehicle {
   var hitPoints = 75
-  let landAttackRange = 7 
-  let landAttack = true 
-  let landMovement = true 
-  let seaAttack = true 
-  let seaMovement = true 
-  let airAttack = true 
+  let landAttackRange = 7
+  let landAttack = true
+  let landMovement = true
+  let seaAttack = true
+  let seaMovement = true
+  let airAttack = true
   let airMovement = true
-  func doLandAttack() { print("Transformer Land Attack") } 
-  func doLandMovement() { print("Transformer Land Move") } 
-  func doSeaAttack() { print("Transformer Sea Attack") } 
-  func doSeaMovement() { print("Transformer Sea Move") } 
-  func doAirAttack() { print("Transformer Sea Attack") } 
+  func doLandAttack() { print("Transformer Land Attack") }
+  func doLandMovement() { print("Transformer Land Move") }
+  func doSeaAttack() { print("Transformer Sea Attack") }
+  func doSeaMovement() { print("Transformer Sea Move") }
+  func doAirAttack() { print("Transformer Sea Attack") }
   func doAirMovement() { print("Transformer Sea Move") }
 }
 ```
