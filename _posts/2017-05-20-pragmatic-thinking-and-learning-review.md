@@ -6,7 +6,7 @@ description: "From the author of The Pragmatic Programmer: From Journeyman to Ma
 ---
 
 In the last 2 days I’ve binge read Andy Hunt’s “Pragmatic Thinking and Learning”. Thought I could grab a non-technical book, and sure enough it is, but still somehow aimed at developers. Even though anyone can find extremely useful information in here.
-Years ago I read The Pragmatic Programmer: From Journeyman to Master(https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer_From_Journeyman_to_Master) by the same author and found it extremely valuable, especially because it was when I started programming.
+Years ago I read [The Pragmatic Programmer: From Journeyman to Master](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer_From_Journeyman_to_Master) by the same author and found it extremely valuable, especially because it was when I started programming.
 
 Essentially, book covers two topics. The first is about how your brain works, using very light cognitive science language; while the second part is about utilizing it, knowing how and when certain tricks can help you.
 Most importantly, I understand what my brain is good at and why sometimes (just sometimes?) brain farts happen to me.
