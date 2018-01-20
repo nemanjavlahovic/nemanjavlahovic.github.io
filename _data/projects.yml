@@ -17,3 +17,11 @@
 - name:  Swift String Utility
   url:   https://github.com/nemanjavlahovic/SwiftStringUtility
   descr: Extended functionality of Swift String.
+
+- name:  Wifi Helper
+  url:   https://github.com/nemanjavlahovic/WifiHelper
+  descr: A simple macOS utility app for retrieving password of network you are currently using.
+
+- name:  Swift Talk
+  url:   https://github.com/nemanjavlahovic/swift-must-watch
+  descr: Open source project for collecting must-watch conference talks about Swift.
