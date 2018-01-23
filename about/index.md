@@ -9,7 +9,7 @@ Hello. My name is Nemanja Vlahović.
 I'm a 25-year-old & iOS developer currently living in Belgrade with a passion for music, art and technology.
 More information can be found through [LinkedIn](http://www.linkedin.com/in/nemanjavlahovic).
 
-Currently I'm working as a freelancer on various projects, in case you need help with your iOS apps, [get in touch](nemanja@nemanjavlahovic.com.
+Currently I'm working as a freelancer on various projects, in case you need help with your iOS apps, [get in touch](nemanja@nemanjavlahovic.com).
 
 When I'm not programming, I love to make music, mostly ambient these days. You can check it out on [Soundcloud](https://soundcloud.com/subsidedmusic).
 
