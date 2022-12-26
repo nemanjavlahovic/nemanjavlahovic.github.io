@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img src="portrait.jpg" class="profile-picture" width="128" align="right">
+<img src="about_me.jpg" class="profile-picture" width="128" align="right">
 
 Hello. My name is Nemanja Vlahović.
 I'm a 30-year-old & iOS developer currently living in Belgrade with a passion for music, art and technology.
