@@ -1,18 +1,30 @@
+- name:  Included Health
+  url:   https://apps.apple.com/us/app/included-health/id907304333
+  descr: Application that provides easy access to high-quality health care.
+
+- name:  Car:Go - Go Anywhere
+  url:   https://apps.apple.com/us/app/car-go-go-anywhere/id999970383?ls=1
+  descr: an Uber alternative for Belgrade (Serbia)
+
+- name:  3way.io - Spoof Call Dialer
+  url:   https://apps.apple.com/app/id1505875416
+  descr: 3way is a prank calling app that can make any two phones call each other.
+
+- name:  Follower Tracker
+  url:   https://apps.apple.com/app/id1548019489
+  descr: View Instagram statistics and insights about your followers, likes and overall engagement. First app written in SwiftUI.
+
 - name:  myOKU
   url:   https://itunes.apple.com/us/app/my-oku/id915801986?mt=8
   descr: myOKU is an app used for communicating with OKU device which is designed to be your Personal Skin Coach.
 
+ - name:  Kidterview
+  url:   https://apps.apple.com/us/app/kidterview/id1054530517?ls=1
+  descr: Create kid interview videos
+
 - name:  Parkeyz
   url:   https://itunes.apple.com/gb/app/parkeyz/id1219226878?mt=8
   descr: Mobile app that allows SMS parking payment in Belgrade.
-
-- name:  Purview
-  url:   https://itunes.apple.com/il/app/purview-a-simple-compass-app/id1232598602?mt=8
-  descr: A simple compass app.
-
-- name:  Speech To Text
-  url:   https://github.com/nemanjavlahovic/SpeechToText
-  descr: Simple app created using Speech Kit, latest iOS framework for speech recognition.
 
 - name:  Swift String Utility
   url:   https://github.com/nemanjavlahovic/SwiftStringUtility
