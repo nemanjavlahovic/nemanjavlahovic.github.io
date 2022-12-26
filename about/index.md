@@ -14,6 +14,6 @@ When I'm not programming, I love to make music, mostly ambient these days. You c
 
 ### Social
 
-- [LinkedIn](http://www.linkedin.com/in/nemanjavlahovic)
+- [LinkedIn](https://www.linkedin.com/in/nemanja-vlahovic/)
 - [Twitter](http://twitter.com/__nemanja)
 - [GitHub](https://github.com/nemanjavlahovic)
