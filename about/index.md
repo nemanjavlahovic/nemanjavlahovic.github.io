@@ -6,7 +6,7 @@ title: About
 <img src="about_me.jpg" class="profile-picture" width="128" align="right">
 
 Hello. My name is Nemanja Vlahović.
-I'm a 30-year-old & iOS developer currently living in Belgrade with a passion for music, art and technology.
+I'm a 30-year-old iOS engineer currently living in Belgrade with a passion for music, art and technology.
 
 Currently I'm working as a freelancer on various projects, in case you need help with your iOS apps, [get in touch](<mailto: nemanja@nemanjavlahovic.com>).
 
